@@ -1,18 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
 *{
     width: auto;
     height: 100%;
     margin: 0;
+    background-color: #E3D8C1;
 }
 body{
     height: -webkit-fill-available;
 }
+
 .fondo-top{
-    display: inline;
+    display: block;
+    width: 110px;
+    height: 110px;
+    background-color: #C85568;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    backdrop-filter: blur(90px);
+    filter: blur(40px);
 }
+.fondo-top1{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: #C85568;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    backdrop-filter: blur(90px);
+    filter: blur(40px);
+    right: 50%;
+}
+.fondo-top2{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #C85568;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    right: 40%;
+    z-index: 1;
+    backdrop-filter: blur(90px);
+    filter: blur(40px);
+}
+.fondo-top3{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: #C85568;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    backdrop-filter: blur(90px);
+    filter: blur(40px);
+    right: 80%;
+}
+.fondo-top4{
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #C85568;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    right: 80%;
+    backdrop-filter: blur(90px);
+    filter: blur(40px);
+}
+.fondo-top5{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #C85568;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    backdrop-filter: blur(90px);
+    filter: blur(40px);
+    right: 10%;
+}
+
 .main-content{
     display: grid;
    justify-content: center;
    align-content: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 4.6rem;
+    text-shadow: #9A2D3C 0 -5px;
+    color: #C85568;
+}
+p{
+    font-family: 'Readex Pro',sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #C85568;
+}
+
+.div-img-main{
+    display: flex;
+    justify-content: center;
+}
+.img-main{
+    border-radius: 50%;
 }
 div{
     display: contents;
@@ -32,7 +130,176 @@ border: 1px solid black;
     padding-right: 22px;
 */
 
+.img-w{
+    width: auto;
+    height: 24px;
+    background-color: transparent;
+}
 
-img{
-    position: relative;
+.img-ll{
+    width: auto;
+    height: 24px;
+    background-color: transparent;
+}
+.btn-cn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 8px;
+}
+.btn-cot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border-radius: 8px;
+}
+.button-ll{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding-right: 10px;
+}
+.button-w{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    background-color: #29A71A;
+    padding-right: 10px;
+    z-index: 99;
+}
+.button-w:hover{
+    background-color: #1E7A12;
+    transition: all 0.7s;
+    border: 1px solid #29A71A;
+}
+.button-ll:hover{
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.7s;
+}
+.p-prox{
+    margin-top: 1rem;
+    color: #9A2D3C;
+    z-index: 99;
+    background-color: transparent;
+    
+}
+@media (max-width: 450px) {
+
+    .fondo-top{
+        display: block;
+        width: 110px;
+        height: 110px;
+        background-color: #C85568;
+        border-radius: 50%;
+        position: absolute;
+        top:    0%;
+        right: 10%;
+        backdrop-filter: blur(90px);
+        filter: blur(40px);
+    }
+    .fondo-top1{
+        display: none;
+        
+    }
+    .fondo-top2{
+        display: none;
+       
+    }
+    .fondo-top3{
+        display: block;
+        width: 70px;
+        height: 70px;
+        background-color: #C85568;
+        border-radius: 50%;
+        position: absolute;
+        top: 60%;
+        backdrop-filter: blur(90px);
+        filter: blur(40px);
+        right: 80%;
+    }
+    .fondo-top4{
+        display: none;
+      
+    }
+    .fondo-top5{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #C85568;
+        border-radius: 50%;
+        position: absolute;
+        top: 90%;
+        backdrop-filter: blur(90px);
+        filter: blur(40px);
+        right: 10%;
+    }
+    .botones-accion{
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        gap: 22px;
+ 
+    }
+   
+.button-ll{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    width: 250px;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+.button-w{
+    width: 250px;
+    justify-content: space-evenly;
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    background-color: #29A71A;
+    padding-right: 10px;
+    z-index: 99;
+}
+.button-w:hover{
+    background-color: #1E7A12;
+    transition: all 0.7s;
+    border: 1px solid #29A71A;
+}
+.button-ll:hover{
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.7s;
+}
 }
