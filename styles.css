@@ -129,6 +129,9 @@ border: 1px solid black;
     padding-left: 22px;
     padding-right: 22px;
 */
+a{
+    text-decoration: none;
+}
 
 .img-w{
     width: auto;
