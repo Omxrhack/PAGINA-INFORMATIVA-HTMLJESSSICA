@@ -136,7 +136,7 @@ a{
 
 .img-w{
     width: auto;
-    height: 24px;
+    height: 38px;
     background-color: transparent;
 }
 
@@ -210,11 +210,10 @@ a{
     transition: all 0.7s;
 }
 .p-prox{
-    margin-top: 1rem;
+    margin-top: 2rem;
     color: #9A2D3C;
     z-index: 99;
     background-color: transparent;
-    position: absolute;
     right: 0;
     left: 0;
 }
